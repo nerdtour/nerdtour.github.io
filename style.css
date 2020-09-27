@@ -1,0 +1,42 @@
+body {
+		background-color: lightgrey;
+    background-position-x: 100px;
+	}
+
+.pure-menu-horizontal{
+  height: 35px;
+  background-color: rgb(212, 232, 192);
+
+}
+
+h1{
+  font-family: monospace;
+  text-align: center;
+  font-size: 50px;
+}
+
+.textbox{
+  text-align: center;
+  font-size: 20px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#cards{
+
+}
+
+.l-box{
+  padding: 1em;
+}
+
+#cards.pure-g{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+#cards.pure-g > h1{
+  text-decoration: underline;
+}
