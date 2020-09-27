@@ -1,42 +1,165 @@
 body {
-		background-color: lightgrey;
+		background-color: rgb(241, 241, 241);
     background-position-x: 100px;
 	}
 
 .pure-menu-horizontal{
-  height: 35px;
+  top: 0;
   background-color: rgb(212, 232, 192);
+  position: fixed;
+  z-index: 10;
+}
+.divider{
+  height: 50px;
+}
 
+.divider-s{
+  height: 20px;
 }
 
 h1{
   font-family: monospace;
   text-align: center;
   font-size: 50px;
+  vertical-align: top;
+  border-bottom-color: lightgrey;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
 }
 
 .textbox{
   text-align: center;
   font-size: 20px;
-  width: 80%;
   margin: auto;
   margin-bottom: 50px;
 }
 
-#cards{
+p.textbox{
+  margin: auto;
+  margin-bottom: 30px;
+}
 
+#cards.pure-g > div > div{
+  box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.726);
+  align-content: center;
+  margin: auto;
+}
+
+#footer{
+  background-color: rgb(100, 100, 100);
+  color: whitesmoke;
+  
+}
+
+#footer-grid{
+  margin: auto;
+  margin-top: 30px;
+  width: 60%;
+}
+
+#footer-grid > div{
+  text-align: center;
+  margin: auto;
+  
+}
+
+#footer-grid > div > a{
+  color: whitesmoke;
+  font-size: 20px;
+  text-decoration: unset;
 }
 
 .l-box{
   padding: 1em;
+  background-color: white;
+  margin: auto;
+  
+}
+#instagram-embed-0{
+  align-content: center;
+  margin: auto;
+  min-width: fit-content;
 }
 
 #cards.pure-g{
   width: 90%;
   margin: auto;
-  text-align: center;
 }
 
-#cards.pure-g > h1{
+underline{
   text-decoration: underline;
+}
+
+.right{
+  text-align: right;
+}
+
+.center{
+  text-align: center;
+  align-content: center;
+  margin: auto;
+}
+
+.pure-button{
+  background-color: rgb(212, 232, 192);
+  color: black
+}
+
+.message{
+  position: fixed;
+  top: 100px;
+  width: 100%;
+  
+}
+
+.error,.success{
+  text-align: center;
+  align-content: center;
+  margin: 0 auto;
+  width: 30%;
+  opacity: 0;
+}
+
+.error{
+  background-color: rgba(226, 0, 0, 0.95);
+}
+
+.error > h3{
+  border-bottom-color: rgb(148, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  width: 80%;
+  margin: auto;
+}
+
+.success{
+  background-color: rgba(0, 128, 0, 0.95);
+  
+}
+
+.success > h3{
+  border-bottom-color: rgb(0, 107, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  width: 80%;
+  margin: auto;
+
+}
+
+#msg_s,#msg_e{
+  border: 10px rgba(0, 0, 0, 0) solid;
+}
+
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+#calc{
+  background-color: rgb(212, 232, 192);
+  color: grey;
+  font-size: 30px;
+  border: 10px rgba(0, 0, 0, 0) solid;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
