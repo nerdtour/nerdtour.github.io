@@ -1,7 +1,7 @@
-body {
-		background-color: rgb(241, 241, 241);
-    background-position-x: 100px;
-	}
+body{
+  background-color: rgb(241, 241, 241);
+  background-position-x: 100px;
+}
 
 .pure-menu-horizontal{
   top: 0;
